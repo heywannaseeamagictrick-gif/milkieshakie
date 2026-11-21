@@ -1,0 +1,288 @@
+{
+  "originalName": "language_model_q4f16.onnx",
+  "originalSize": 698231365,
+  "chunkSize": 17825792,
+  "minChunkMB": 17,
+  "parts": [
+    {
+      "index": 1,
+      "name": "language_model_q4f16.onnx.part001",
+      "start": 0,
+      "end": 17825792,
+      "size": 17825792
+    },
+    {
+      "index": 2,
+      "name": "language_model_q4f16.onnx.part002",
+      "start": 17825792,
+      "end": 35651584,
+      "size": 17825792
+    },
+    {
+      "index": 3,
+      "name": "language_model_q4f16.onnx.part003",
+      "start": 35651584,
+      "end": 53477376,
+      "size": 17825792
+    },
+    {
+      "index": 4,
+      "name": "language_model_q4f16.onnx.part004",
+      "start": 53477376,
+      "end": 71303168,
+      "size": 17825792
+    },
+    {
+      "index": 5,
+      "name": "language_model_q4f16.onnx.part005",
+      "start": 71303168,
+      "end": 89128960,
+      "size": 17825792
+    },
+    {
+      "index": 6,
+      "name": "language_model_q4f16.onnx.part006",
+      "start": 89128960,
+      "end": 106954752,
+      "size": 17825792
+    },
+    {
+      "index": 7,
+      "name": "language_model_q4f16.onnx.part007",
+      "start": 106954752,
+      "end": 124780544,
+      "size": 17825792
+    },
+    {
+      "index": 8,
+      "name": "language_model_q4f16.onnx.part008",
+      "start": 124780544,
+      "end": 142606336,
+      "size": 17825792
+    },
+    {
+      "index": 9,
+      "name": "language_model_q4f16.onnx.part009",
+      "start": 142606336,
+      "end": 160432128,
+      "size": 17825792
+    },
+    {
+      "index": 10,
+      "name": "language_model_q4f16.onnx.part010",
+      "start": 160432128,
+      "end": 178257920,
+      "size": 17825792
+    },
+    {
+      "index": 11,
+      "name": "language_model_q4f16.onnx.part011",
+      "start": 178257920,
+      "end": 196083712,
+      "size": 17825792
+    },
+    {
+      "index": 12,
+      "name": "language_model_q4f16.onnx.part012",
+      "start": 196083712,
+      "end": 213909504,
+      "size": 17825792
+    },
+    {
+      "index": 13,
+      "name": "language_model_q4f16.onnx.part013",
+      "start": 213909504,
+      "end": 231735296,
+      "size": 17825792
+    },
+    {
+      "index": 14,
+      "name": "language_model_q4f16.onnx.part014",
+      "start": 231735296,
+      "end": 249561088,
+      "size": 17825792
+    },
+    {
+      "index": 15,
+      "name": "language_model_q4f16.onnx.part015",
+      "start": 249561088,
+      "end": 267386880,
+      "size": 17825792
+    },
+    {
+      "index": 16,
+      "name": "language_model_q4f16.onnx.part016",
+      "start": 267386880,
+      "end": 285212672,
+      "size": 17825792
+    },
+    {
+      "index": 17,
+      "name": "language_model_q4f16.onnx.part017",
+      "start": 285212672,
+      "end": 303038464,
+      "size": 17825792
+    },
+    {
+      "index": 18,
+      "name": "language_model_q4f16.onnx.part018",
+      "start": 303038464,
+      "end": 320864256,
+      "size": 17825792
+    },
+    {
+      "index": 19,
+      "name": "language_model_q4f16.onnx.part019",
+      "start": 320864256,
+      "end": 338690048,
+      "size": 17825792
+    },
+    {
+      "index": 20,
+      "name": "language_model_q4f16.onnx.part020",
+      "start": 338690048,
+      "end": 356515840,
+      "size": 17825792
+    },
+    {
+      "index": 21,
+      "name": "language_model_q4f16.onnx.part021",
+      "start": 356515840,
+      "end": 374341632,
+      "size": 17825792
+    },
+    {
+      "index": 22,
+      "name": "language_model_q4f16.onnx.part022",
+      "start": 374341632,
+      "end": 392167424,
+      "size": 17825792
+    },
+    {
+      "index": 23,
+      "name": "language_model_q4f16.onnx.part023",
+      "start": 392167424,
+      "end": 409993216,
+      "size": 17825792
+    },
+    {
+      "index": 24,
+      "name": "language_model_q4f16.onnx.part024",
+      "start": 409993216,
+      "end": 427819008,
+      "size": 17825792
+    },
+    {
+      "index": 25,
+      "name": "language_model_q4f16.onnx.part025",
+      "start": 427819008,
+      "end": 445644800,
+      "size": 17825792
+    },
+    {
+      "index": 26,
+      "name": "language_model_q4f16.onnx.part026",
+      "start": 445644800,
+      "end": 463470592,
+      "size": 17825792
+    },
+    {
+      "index": 27,
+      "name": "language_model_q4f16.onnx.part027",
+      "start": 463470592,
+      "end": 481296384,
+      "size": 17825792
+    },
+    {
+      "index": 28,
+      "name": "language_model_q4f16.onnx.part028",
+      "start": 481296384,
+      "end": 499122176,
+      "size": 17825792
+    },
+    {
+      "index": 29,
+      "name": "language_model_q4f16.onnx.part029",
+      "start": 499122176,
+      "end": 516947968,
+      "size": 17825792
+    },
+    {
+      "index": 30,
+      "name": "language_model_q4f16.onnx.part030",
+      "start": 516947968,
+      "end": 534773760,
+      "size": 17825792
+    },
+    {
+      "index": 31,
+      "name": "language_model_q4f16.onnx.part031",
+      "start": 534773760,
+      "end": 552599552,
+      "size": 17825792
+    },
+    {
+      "index": 32,
+      "name": "language_model_q4f16.onnx.part032",
+      "start": 552599552,
+      "end": 570425344,
+      "size": 17825792
+    },
+    {
+      "index": 33,
+      "name": "language_model_q4f16.onnx.part033",
+      "start": 570425344,
+      "end": 588251136,
+      "size": 17825792
+    },
+    {
+      "index": 34,
+      "name": "language_model_q4f16.onnx.part034",
+      "start": 588251136,
+      "end": 606076928,
+      "size": 17825792
+    },
+    {
+      "index": 35,
+      "name": "language_model_q4f16.onnx.part035",
+      "start": 606076928,
+      "end": 623902720,
+      "size": 17825792
+    },
+    {
+      "index": 36,
+      "name": "language_model_q4f16.onnx.part036",
+      "start": 623902720,
+      "end": 641728512,
+      "size": 17825792
+    },
+    {
+      "index": 37,
+      "name": "language_model_q4f16.onnx.part037",
+      "start": 641728512,
+      "end": 659554304,
+      "size": 17825792
+    },
+    {
+      "index": 38,
+      "name": "language_model_q4f16.onnx.part038",
+      "start": 659554304,
+      "end": 677380096,
+      "size": 17825792
+    },
+    {
+      "index": 39,
+      "name": "language_model_q4f16.onnx.part039",
+      "start": 677380096,
+      "end": 695205888,
+      "size": 17825792
+    },
+    {
+      "index": 40,
+      "name": "language_model_q4f16.onnx.part040",
+      "start": 695205888,
+      "end": 698231365,
+      "size": 3025477
+    }
+  ]
+}
