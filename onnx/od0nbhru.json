@@ -1,0 +1,43 @@
+{
+  "originalName": "image_decode_q4f16.onnx",
+  "originalSize": 85297188,
+  "chunkSize": 17825792,
+  "minChunkMB": 17,
+  "parts": [
+    {
+      "index": 1,
+      "name": "image_decode_q4f16.onnx.part001",
+      "start": 0,
+      "end": 17825792,
+      "size": 17825792
+    },
+    {
+      "index": 2,
+      "name": "image_decode_q4f16.onnx.part002",
+      "start": 17825792,
+      "end": 35651584,
+      "size": 17825792
+    },
+    {
+      "index": 3,
+      "name": "image_decode_q4f16.onnx.part003",
+      "start": 35651584,
+      "end": 53477376,
+      "size": 17825792
+    },
+    {
+      "index": 4,
+      "name": "image_decode_q4f16.onnx.part004",
+      "start": 53477376,
+      "end": 71303168,
+      "size": 17825792
+    },
+    {
+      "index": 5,
+      "name": "image_decode_q4f16.onnx.part005",
+      "start": 71303168,
+      "end": 85297188,
+      "size": 13994020
+    }
+  ]
+}
