@@ -1,0 +1,25 @@
+Reassembly instructions for prepare_inputs_embeds_q4f16.onnx
+
+The file was split into 34 part(s) of at least 17 MB each.
+All parts are byte slices of the original in ascending index order:
+
+  part001, part002, part003, …
+
+Concatenate them (in order) to get the original file back.
+
+  macOS / Linux:
+    cat prepare_inputs_embeds_q4f16.onnx.part* > prepare_inputs_embeds_q4f16.onnx
+
+  Windows PowerShell:
+    $out = [System.IO.File]::Create("prepare_inputs_embeds_q4f16.onnx")
+    Get-ChildItem -Filter "prepare_inputs_embeds_q4f16.onnx.part*" | Sort-Object Name | ForEach-Object {
+      $bytes = [System.IO.File]::ReadAllBytes($_.FullName)
+      $out.Write($bytes, 0, $bytes.Length)
+    }
+    $out.Close()
+
+  Windows CMD:
+    copy /b prepare_inputs_embeds_q4f16.onnx.part001+prepare_inputs_embeds_q4f16.onnx.part002+... prepare_inputs_embeds_q4f16.onnx
+
+The file prepare_inputs_embeds_q4f16.onnx.manifest.json records the exact original size
+and byte range of each part, so the concatenation can be verified.
