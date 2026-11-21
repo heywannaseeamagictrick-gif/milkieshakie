@@ -1,0 +1,9 @@
+{
+  "bos_token_id": 100000,
+  "eos_token_id": 100001,
+  "do_sample": true,
+  "num_image_tokens": 576,
+  "pad_token_id": 100015,
+  "temperature": 0.7,
+  "top_p": 0.95
+}

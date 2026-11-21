@@ -1,0 +1,22 @@
+{
+  "add_bos_token": true,
+  "add_eos_token": false,
+  "bos_token": "<｜begin▁of▁sentence｜>",
+  "clean_up_tokenization_spaces": false,
+  "chat_template": [
+    {
+      "name": "default",
+      "template": "{% if messages[0]['role'] | lower == '<|system|>' %}{% set loop_messages = messages[1:] %}{% set system_message = messages[0]['content'] %}{% else %}{% set loop_messages = messages %}{% set system_message = 'You are a helpful language and vision assistant. You are able to understand the visual content that the user provides, and assist the user with a variety of tasks using natural language.' %}{% endif %}{{ bos_token + system_message }}{% for message in loop_messages %}{{ '\\n\\n' +  message['role'] + ': ' + message['content'] | trim }}{% endfor %}{% if add_generation_prompt %}{{ '\\n\\n' + '<|Assistant|>:' }}{% endif %}"
+    },
+    {
+      "name": "text_to_image",
+      "template": "{{ '<｜begin▁of▁sentence｜>' }}{% for message in messages %}{{ message['role'] + ': ' + message['content'] | trim  + '\\n\\n' }}{% endfor %}{% if add_generation_prompt %}{{ '<|Assistant|>:<begin_of_image>' }}{% endif %}"
+    }
+  ],
+  "eos_token": "<｜end▁of▁sentence｜>",
+  "model_max_length": 16384,
+  "pad_token": "<｜▁pad▁｜>",
+  "tokenizer_class": "LlamaTokenizer",
+  "unk_token": null,
+  "use_default_system_prompt": false
+}
