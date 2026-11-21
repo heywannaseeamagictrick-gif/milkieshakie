@@ -1,0 +1,22 @@
+{
+  "originalName": "gen_head_q4f16.onnx",
+  "originalSize": 21273332,
+  "chunkSize": 17825792,
+  "minChunkMB": 17,
+  "parts": [
+    {
+      "index": 1,
+      "name": "gen_head_q4f16.onnx.part001",
+      "start": 0,
+      "end": 17825792,
+      "size": 17825792
+    },
+    {
+      "index": 2,
+      "name": "gen_head_q4f16.onnx.part002",
+      "start": 17825792,
+      "end": 21273332,
+      "size": 3447540
+    }
+  ]
+}
